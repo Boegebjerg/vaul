@@ -35,7 +35,6 @@ export function usePositionFixed({
       document.body.style.top = `${-scrollPos.current}px`;
       document.body.style.left = `${-scrollX}px`;
       document.body.style.right = '0px';
-      document.body.style.height = 'auto';
 
       setTimeout(
         () =>
